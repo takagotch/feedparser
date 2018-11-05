@@ -38,9 +38,18 @@ puts feed.items[0].url
 puts feed.items[0].updated
 puts feed.items[0].content
 
+txt = open().read
+feed = FeedParser::Parser.parse( txt )
+puts feed.items[0].title
+puts feed.items[0].url
+puts feed.items[0].url
+puts feed.items[0].updated
+puts feed.items[0].content_text
+
 ```
 
 ```
+gem install feedparser
 ```
 
 ```
