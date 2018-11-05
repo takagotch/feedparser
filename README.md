@@ -27,6 +27,16 @@ class Item
   attr_accessor :guid
 end
 
+require 'open-uri'
+require 'feedparser'
+txt = open().read
+feed = FeedParser::Parser.parse( txt )
+puts feed.title
+puts feed.url
+puts feed.items[0].title
+puts feed.items[0].url
+puts feed.items[0].updated
+puts feed.items[0].content
 
 ```
 
