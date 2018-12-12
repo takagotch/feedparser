@@ -1,6 +1,10 @@
 ### feedparser
 ---
+.rb
 https://github.com/feedparser/feedparser
+
+.py
+https://pythonhosted.org/feedparser/
 
 ```ruby
 class Feed
@@ -108,3 +112,13 @@ gem install feedparser
   <h3></h3>
   <p></p>
 ```
+
+
+---
+
+```
+```
+
+```
+```
+
