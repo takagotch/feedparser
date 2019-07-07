@@ -116,7 +116,16 @@ gem install feedparser
 
 ---
 
-```
+```py
+import feedparse
+d = feedparser.parse('http://feedparser.org/docs/examples/atom10.xml')
+d.feed.title_detail
+d.feed.subtitle_detail
+d.feed.rights_detail
+d.entried[0].title_detail
+d.entries[0].summary_detail
+len(d.entries[0].content)
+d.entries[0].content[0]
 ```
 
 ```
